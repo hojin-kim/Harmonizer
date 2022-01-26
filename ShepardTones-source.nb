@@ -1,0 +1,812 @@
+(* Content-type: application/vnd.wolfram.player *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       153,          7]
+NotebookDataLength[     31565,        802]
+NotebookOptionsPosition[     28709,        735]
+NotebookOutlinePosition[     29610,        768]
+CellTagsIndexPosition[     29529,        763]
+WindowTitle->Shepard Tones - Source
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["Shepard Tones", "Section",
+ CellFrame->{{0, 0}, {0, 0}},
+ ShowCellBracket->False,
+ FontColor->RGBColor[
+  0.597406, 0, 
+   0.0527047],ExpressionUUID->"c73dc675-6ae9-4bc6-8221-b4a1bca08184"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[CompressedData["
+1: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
+FP/69esnAAAAAAAAAAAAwM74B4thROM=
+   "], {{0, 0}, {1800, 25}}, {0, 255},
+   ColorFunction->RGBColor],
+  ImageSize->{1800, 25},
+  PlotRange->{{0, 1800}, {0, 25}}]], "Section",
+ CellFrame->{{0, 0}, {0, 0}},
+ ShowCellBracket->
+  False,ExpressionUUID->"9980deeb-d691-41ba-8dea-45fcdddd90ce"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"harmonicAmplitude", "[", "f_", "]"}], ":=", 
+   RowBox[{"N", "[", 
+    RowBox[{"1", "-", 
+     RowBox[{"Cos", "[", 
+      FractionBox[
+       RowBox[{"2", " ", "\[Pi]", " ", 
+        RowBox[{"Log", "[", 
+         FractionBox["f", "263"], "]"}]}], 
+       RowBox[{"Log", "[", 
+        SuperscriptBox["2", "5"], "]"}]], "]"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{3.35696210375764*^9, 3.36465134528368*^9},
+ ImageRegion->{{0, 1}, {0, 1}},
+ CellTags->"Envelope Functions",
+ CellLabel->"In[1]:=",
+ CellID->2079067636,ExpressionUUID->"c05161a2-529b-46fd-b76a-0216bdb4a85e"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"envelope", "[", 
+    RowBox[{"t_", ",", "duration_"}], "]"}], ":=", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"Log", "[", 
+       RowBox[{"t", "+", "0.001"}], "]"}], "-", 
+      RowBox[{"Log", "[", "0.001", "]"}]}], ")"}], " ", 
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"-", "4"}], "/", "duration"}], " ", "t"}]]}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.36464411523085*^9, 3.36464411847843*^9}, {
+  3.36464415633625*^9, 3.36464416223558*^9}, {3.36464419746271*^9, 
+  3.36464420714609*^9}},
+ ImageRegion->{{0, 1}, {0, 1}},
+ CellLabel->"In[2]:=",
+ CellID->1183337915,ExpressionUUID->"aa64625c-046e-4a7d-bbe2-f5a6a3a2e24e"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"tone", "[", 
+    RowBox[{"t_", ",", "m_", ",", "duration_"}], "]"}], ":=", 
+   RowBox[{"N", "[", 
+    RowBox[{
+     RowBox[{"envelope", "[", 
+      RowBox[{"t", ",", "duration"}], "]"}], "*", " ", 
+     RowBox[{"Total", "[", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Sin", "[", 
+          RowBox[{
+           SuperscriptBox["2.", "m"], " ", "263", " ", 
+           SuperscriptBox["2.", "n"], " ", "t"}], "]"}], " ", 
+         RowBox[{"harmonicAmplitude", "[", 
+          RowBox[{
+           SuperscriptBox["2.", "m"], " ", "263", " ", 
+           SuperscriptBox["2.", "n"]}], "]"}]}], ",", 
+        RowBox[{"{", 
+         RowBox[{"n", ",", "0", ",", "4"}], "}"}]}], "]"}], "]"}]}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.36464406674191*^9, 3.36464411306384*^9}, {
+   3.36464427420606*^9, 3.36464427767027*^9}, 3.36465134345559*^9},
+ ImageRegion->{{0, 1}, {0, 1}},
+ CellLabel->"In[3]:=",
+ CellID->514282538,ExpressionUUID->"f820f61b-0011-4c52-bbac-df4925e61af5"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Graphics", "[", 
+    RowBox[{
+     RowBox[{"{", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"Inset", "[", 
+        RowBox[{
+         RowBox[{"Style", "[", 
+          RowBox[{
+          "\"\<Click the buttons.\>\"", ",", "\"\<Label\>\"", ",", "14"}], 
+          "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", ".5"}], "}"}]}], "]"}], ",", 
+       RowBox[{"Inset", "[", 
+        RowBox[{
+         RowBox[{"Style", "[", 
+          RowBox[{
+          "\"\<Which gives the highest tone?\>\"", ",", "\"\<Label\>\"", ",", 
+           "14"}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0"}], "}"}]}], "]"}], ",", 
+       RowBox[{"Inset", "[", 
+        RowBox[{
+         RowBox[{"Style", "[", 
+          RowBox[{
+          "\"\<They don't change.\>\"", ",", "\"\<Label\>\"", ",", "14"}], 
+          "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", 
+           RowBox[{"-", "0.5"}]}], "}"}]}], "]"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"Inset", "[", "\[IndentingNewLine]", 
+          RowBox[{
+           RowBox[{"With", "[", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"snd", "=", 
+               RowBox[{"Play", "[", 
+                RowBox[{
+                 RowBox[{"Evaluate", "[", 
+                  RowBox[{"tone", "[", 
+                   RowBox[{"t", ",", 
+                    RowBox[{"m", "/", "12"}], ",", "duration"}], "]"}], "]"}],
+                  ",", " ", 
+                 RowBox[{"{", 
+                  RowBox[{"t", ",", " ", "0", ",", " ", "duration"}], "}"}], 
+                 ",", 
+                 RowBox[{"PlayRange", " ", "\[Rule]", " ", 
+                  RowBox[{"{", 
+                   RowBox[{
+                    RowBox[{"-", "9"}], ",", " ", "9"}], "}"}]}]}], "]"}]}], 
+              "}"}], ",", " ", 
+             RowBox[{"Button", "[", 
+              RowBox[{"\"\<\>\"", ",", " ", 
+               RowBox[{"EmitSound", "[", "snd", "]"}], ",", 
+               RowBox[{"ImageSize", "\[Rule]", 
+                RowBox[{"{", 
+                 RowBox[{"50", ",", "50"}], "}"}]}], ",", 
+               RowBox[{"Background", "\[Rule]", 
+                RowBox[{"If", "[", 
+                 RowBox[{
+                  RowBox[{"m", "===", "highlight"}], ",", 
+                  RowBox[{"RGBColor", "[", 
+                   RowBox[{"1", ",", ".47", ",", "0"}], "]"}], ",", 
+                  "Automatic"}], "]"}]}]}], "]"}]}], "]"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"Cos", "[", 
+              RowBox[{
+               RowBox[{
+                RowBox[{"-", "2"}], "Pi", " ", 
+                RowBox[{"m", "/", "12"}]}], "+", 
+               RowBox[{"Pi", "/", "4"}], "+", 
+               RowBox[{"Pi", "/", "12"}]}], "]"}], ",", 
+             RowBox[{"Sin", "[", 
+              RowBox[{
+               RowBox[{
+                RowBox[{"-", "2"}], "Pi", " ", 
+                RowBox[{"m", "/", "12"}]}], "+", 
+               RowBox[{"Pi", "/", "4"}], "+", 
+               RowBox[{"Pi", "/", "12"}]}], "]"}]}], "}"}]}], "]"}], ",", " ", 
+         RowBox[{"{", 
+          RowBox[{"m", ",", " ", "0", ",", " ", "11"}], "}"}]}], "]"}]}], 
+      "}"}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"500", ",", "400"}], "}"}]}]}], "]"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"duration", ",", ".8"}], "}"}], ",", "0.1", ",", "5"}], "}"}], 
+   ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"highlight", ",", "12"}], "}"}], ",", "0", ",", "12", ",", "1", 
+     ",", 
+     RowBox[{"ControlType", "\[Rule]", "None"}]}], "}"}], ",", 
+   RowBox[{"SaveDefinitions", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellDingbat->"\[WatchIcon]",
+ CellChangeTimes->{{3.35863690193897*^9, 3.35863690435827*^9}, {
+   3.35863695353218*^9, 3.35863701315355*^9}, {3.35863706339908*^9, 
+   3.35863731793818*^9}, {3.35863748106539*^9, 3.35863748174215*^9}, {
+   3.36464292904759*^9, 3.36464294730101*^9}, {3.36464300008136*^9, 
+   3.3646430015281*^9}, {3.36464426880113*^9, 3.36464429584937*^9}, {
+   3.36464436180721*^9, 3.36464441532537*^9}, {3.36464453746951*^9, 
+   3.3646446632154*^9}, {3.36464470315652*^9, 3.36464473286757*^9}, {
+   3.36464514115145*^9, 3.36464524396282*^9}, {3.36464532832698*^9, 
+   3.36464532885885*^9}, {3.36465136320521*^9, 3.36465136767388*^9}, {
+   3.3646518513031*^9, 3.36465192991047*^9}, {3.36465224599612*^9, 
+   3.36465230833828*^9}, {3.36959172737637*^9, 3.36959174315854*^9}, {
+   3.36959185108356*^9, 3.36959189135202*^9}, 3.36959195095591*^9, {
+   3.369852355671875*^9, 3.369852363625*^9}, {3.3812514538752813`*^9, 
+   3.3812514782034063`*^9}, {3.382893632052225*^9, 3.3828936364116*^9}},
+ ImageRegion->{{0, 1}, {0, 1}},
+ CellLabel->"In[5]:=",
+ CellID->2072420638,ExpressionUUID->"832cdf5f-f8ef-4dd2-b62e-bb29e606189c"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`duration$$ = 0.6, $CellContext`highlight$$ =
+     12, Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"\:c81c\:baa9 \:c5c6\:c74c\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`duration$$], 0.8}, 0.1, 5}, {{
+       Hold[$CellContext`highlight$$], 12}, 0, 12, 1}}, Typeset`size$$ = {
+    500., {198., 202.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = False}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`duration$$ = 0.8, $CellContext`highlight$$ = 
+        12}, "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Graphics[{
+         Inset[
+          Style["Click the buttons.", "Label", 14], {0, 0.5}], 
+         Inset[
+          Style["Which gives the highest tone?", "Label", 14], {0, 0}], 
+         Inset[
+          Style["They don't change.", "Label", 14], {0, -0.5}], 
+         Table[
+          Inset[
+           With[{$CellContext`snd$ = Play[
+               Evaluate[
+                $CellContext`tone[$CellContext`t, $CellContext`m/
+                 12, $CellContext`duration$$]], {$CellContext`t, 
+                0, $CellContext`duration$$}, PlayRange -> {-9, 9}]}, 
+            Button["", 
+             EmitSound[$CellContext`snd$], ImageSize -> {50, 50}, Background -> 
+             If[$CellContext`m === $CellContext`highlight$$, 
+               RGBColor[1, 0.47, 0], Automatic]]], {
+            Cos[(-2) Pi ($CellContext`m/12) + Pi/4 + Pi/12], 
+            
+            Sin[(-2) Pi ($CellContext`m/12) + Pi/4 + 
+             Pi/12]}], {$CellContext`m, 0, 11}]}, ImageSize -> {500, 400}], 
+      "Specifications" :> {{{$CellContext`duration$$, 0.8}, 0.1, 
+         5}, {{$CellContext`highlight$$, 12}, 0, 12, 1, ControlType -> None}},
+       "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{544., {256., 262.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>({$CellContext`tone[
+         Pattern[$CellContext`t, 
+          Blank[]], 
+         Pattern[$CellContext`m, 
+          Blank[]], 
+         Pattern[$CellContext`duration, 
+          Blank[]]] := 
+       N[$CellContext`envelope[$CellContext`t, $CellContext`duration] Total[
+           Table[
+           Sin[2.^$CellContext`m 263 
+              2.^$CellContext`n $CellContext`t] \
+$CellContext`harmonicAmplitude[
+             2.^$CellContext`m 263 2.^$CellContext`n], {$CellContext`n, 0, 
+             4}]]], $CellContext`envelope[
+         Pattern[$CellContext`t, 
+          Blank[]], 
+         Pattern[$CellContext`duration, 
+          Blank[]]] := (Log[$CellContext`t + 0.001] - Log[0.001])/
+        E^((4/$CellContext`duration) $CellContext`t), \
+$CellContext`harmonicAmplitude[
+         Pattern[$CellContext`f, 
+          Blank[]]] := N[1 - Cos[(2 Pi Log[$CellContext`f/263])/Log[2^5]]]}; 
+     Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{{3.852186083989002*^9, 3.8521861181594877`*^9}},
+ CellLabel->"Out[5]=",ExpressionUUID->"4ef76c53-959e-491f-9bec-634b14fd75c6"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["CAPTION", "Section",
+ CellFrame->{{0, 0}, {1, 0}},
+ CellFrameColor->RGBColor[0.87, 0.87, 0.87],
+ FontFamily->"Helvetica",
+ FontSize->12,
+ FontWeight->"Bold",
+ FontColor->RGBColor[
+  0.597406, 0, 
+   0.0527047],ExpressionUUID->"79d64244-beb0-4910-974e-8025fad46e31"],
+
+Cell["\<\
+Shepard tones are sounds named after Roger Shepard. Going clockwise, each \
+tone sounds higher than all tones preceding it and lower than all tones \
+following it. Even though there are only twelve tones, each tone sounds both \
+higher and lower than every other when played in a continuous loop.\
+\>", "Text",ExpressionUUID->"e3bf40db-a442-436a-94d2-590fd91946d5"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["THIS NOTEBOOK IS THE SOURCE CODE FROM", "Text",
+ CellFrame->{{0, 0}, {0, 0}},
+ CellMargins->{{48, 10}, {4, 28}},
+ CellGroupingRules->{"SectionGrouping", 25},
+ CellFrameMargins->{{48, 48}, {6, 5}},
+ CellFrameColor->RGBColor[0.87, 0.87, 0.87],
+ FontFamily->"Helvetica",
+ FontSize->10,
+ FontWeight->"Bold",
+ FontColor->RGBColor[
+  0.597406, 0, 
+   0.0527047],ExpressionUUID->"be02cfa8-4318-447d-adb4-a34d57fc2e4d"],
+
+Cell[TextData[{
+ "\"",
+ ButtonBox["Shepard Tones",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/ShepardTones/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/ShepardTones/"],
+ "\"",
+ " from ",
+ ButtonBox["the Wolfram Demonstrations Project",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/"],
+ "\[ParagraphSeparator]\[NonBreakingSpace]",
+ ButtonBox["http://demonstrations.wolfram.com/ShepardTones/",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/ShepardTones/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/ShepardTones/"]
+}], "Text",
+ CellMargins->{{48, Inherited}, {0, Inherited}},
+ FontFamily->"Verdana",
+ FontSize->10,
+ FontColor->GrayLevel[
+  0.5],ExpressionUUID->"2a0773ed-c98d-4a6d-ba6f-bd9a0f6d730b"],
+
+Cell[TextData[{
+ "Contributed by: ",
+ ButtonBox["Theodore Gray",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/author.html?author=Theodore+Gray"],
+     None},
+  ButtonNote->
+   "http://demonstrations.wolfram.com/author.html?author=Theodore+Gray"]
+}], "Text",
+ CellDingbat->"\[FilledSmallSquare]",
+ CellMargins->{{66, 48}, {2, 4}},
+ FontFamily->"Verdana",
+ FontSize->10,
+ FontColor->GrayLevel[0.6],
+ CellID->1143965764,ExpressionUUID->"281bd02a-e879-4c5f-a4fe-61be839dabae"],
+
+Cell[TextData[{
+ "A full-function Wolfram ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " system (Version 6 or higher) is required to edit this notebook.\n",
+ StyleBox[ButtonBox["GET WOLFRAM MATHEMATICA \[RightGuillemet]",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://www.wolfram.com/products/mathematica/"], None},
+  ButtonNote->"http://www.wolfram.com/products/mathematica/"],
+  FontFamily->"Helvetica",
+  FontWeight->"Bold",
+  FontSlant->"Italic",
+  FontColor->RGBColor[1, 0.42, 0]]
+}], "Text",
+ CellFrame->True,
+ CellMargins->{{48, 68}, {8, 28}},
+ CellFrameMargins->12,
+ CellFrameColor->RGBColor[0.87, 0.87, 0.87],
+ CellChangeTimes->{3.3750111182355957`*^9},
+ ParagraphSpacing->{1., 1.},
+ FontFamily->"Verdana",
+ FontSize->10,
+ FontColor->GrayLevel[0.411765],
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"de075f68-2d90-4b76-a6dd-42a770351012"],
+
+Cell[TextData[{
+ "\[Copyright] ",
+ StyleBox[ButtonBox["Wolfram Demonstrations Project & Contributors",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/"],
+  FontColor->GrayLevel[0.6]],
+ "\[ThickSpace]\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+ StyleBox[ButtonBox["Terms of Use",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/termsofuse.html"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/termsofuse.html"],
+  FontColor->GrayLevel[0.6]],
+ "\[ThickSpace]\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+ StyleBox[ButtonBox["Make a new version of this Demonstration \
+\[RightGuillemet]",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/participate/upload.jsp?id=\
+ShepardTones"], None},
+  ButtonNote->None],
+  FontColor->GrayLevel[0.6]]
+}], "Text",
+ CellFrame->{{0, 0}, {0, 0.5}},
+ CellMargins->{{48, 10}, {20, 50}},
+ CellFrameMargins->{{6, 0}, {6, 6}},
+ CellFrameColor->GrayLevel[0.6],
+ FontFamily->"Verdana",
+ FontSize->9,
+ FontColor->GrayLevel[
+  0.6],ExpressionUUID->"27cece19-ae4f-4453-b524-92d8dd0851fa"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"snd", "[", "m", "]"}], "=", 
+  RowBox[{"Play", "[", 
+   RowBox[{
+    RowBox[{"Evaluate", "[", 
+     RowBox[{"tone", "[", 
+      RowBox[{"t", ",", 
+       RowBox[{
+        RowBox[{"Mod", "[", 
+         RowBox[{"m", ",", " ", "12"}], "]"}], "/", "12"}], ",", "5"}], "]"}],
+      "]"}], ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"t", ",", " ", "0", ",", " ", "5"}], "}"}], ",", 
+    RowBox[{"PlayRange", " ", "\[Rule]", " ", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "9"}], ",", " ", "9"}], "}"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.8521861220053253`*^9, 3.852186127814941*^9}, {
+   3.852186166462336*^9, 3.852186169712715*^9}, {3.8521862033912354`*^9, 
+   3.8521862391835938`*^9}, 3.852186611054658*^9},
+ CellLabel->"In[19]:=",ExpressionUUID->"638ea130-e26a-4861-a82e-f4990d9ec535"],
+
+Cell[BoxData[
+ RowBox[{"Play", "[", 
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["2.718281828459045`", 
+     RowBox[{
+      RowBox[{"-", "0.8`"}], " ", "t"}]], " ", 
+    RowBox[{"(", 
+     RowBox[{"6.907755278982137`", "\[VeryThinSpace]", "+", 
+      RowBox[{"Log", "[", 
+       RowBox[{"0.001`", "\[VeryThinSpace]", "+", "t"}], "]"}]}], ")"}], " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1.`", "\[VeryThinSpace]", "-", 
+         RowBox[{"1.`", " ", 
+          RowBox[{"Cos", "[", 
+           RowBox[{"1.8129440567308772`", " ", 
+            RowBox[{"Log", "[", 
+             RowBox[{"1.`", " ", 
+              SuperscriptBox["2.`", 
+               RowBox[{"0.08333333333333333`", " ", 
+                RowBox[{"Mod", "[", 
+                 RowBox[{"m", ",", "12.`"}], "]"}]}]]}], "]"}]}], "]"}]}]}], 
+        ")"}], " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"263.`", " ", 
+         SuperscriptBox["2.`", 
+          RowBox[{"0.08333333333333333`", " ", 
+           RowBox[{"Mod", "[", 
+            RowBox[{"m", ",", "12.`"}], "]"}]}]], " ", "t"}], "]"}]}], "+", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1.`", "\[VeryThinSpace]", "-", 
+         RowBox[{"1.`", " ", 
+          RowBox[{"Cos", "[", 
+           RowBox[{"1.8129440567308772`", " ", 
+            RowBox[{"Log", "[", 
+             SuperscriptBox["2.`", 
+              RowBox[{"1.`", "\[VeryThinSpace]", "+", 
+               RowBox[{"0.08333333333333333`", " ", 
+                RowBox[{"Mod", "[", 
+                 RowBox[{"m", ",", "12.`"}], "]"}]}]}]], "]"}]}], "]"}]}]}], 
+        ")"}], " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"526.`", " ", 
+         SuperscriptBox["2.`", 
+          RowBox[{"0.08333333333333333`", " ", 
+           RowBox[{"Mod", "[", 
+            RowBox[{"m", ",", "12.`"}], "]"}]}]], " ", "t"}], "]"}]}], "+", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1.`", "\[VeryThinSpace]", "-", 
+         RowBox[{"1.`", " ", 
+          RowBox[{"Cos", "[", 
+           RowBox[{"1.8129440567308772`", " ", 
+            RowBox[{"Log", "[", 
+             RowBox[{"4.`", " ", 
+              SuperscriptBox["2.`", 
+               RowBox[{"0.08333333333333333`", " ", 
+                RowBox[{"Mod", "[", 
+                 RowBox[{"m", ",", "12.`"}], "]"}]}]]}], "]"}]}], "]"}]}]}], 
+        ")"}], " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"1052.`", " ", 
+         SuperscriptBox["2.`", 
+          RowBox[{"0.08333333333333333`", " ", 
+           RowBox[{"Mod", "[", 
+            RowBox[{"m", ",", "12.`"}], "]"}]}]], " ", "t"}], "]"}]}], "+", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1.`", "\[VeryThinSpace]", "-", 
+         RowBox[{"1.`", " ", 
+          RowBox[{"Cos", "[", 
+           RowBox[{"1.8129440567308772`", " ", 
+            RowBox[{"Log", "[", 
+             RowBox[{"8.`", " ", 
+              SuperscriptBox["2.`", 
+               RowBox[{"0.08333333333333333`", " ", 
+                RowBox[{"Mod", "[", 
+                 RowBox[{"m", ",", "12.`"}], "]"}]}]]}], "]"}]}], "]"}]}]}], 
+        ")"}], " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"2104.`", " ", 
+         SuperscriptBox["2.`", 
+          RowBox[{"0.08333333333333333`", " ", 
+           RowBox[{"Mod", "[", 
+            RowBox[{"m", ",", "12.`"}], "]"}]}]], " ", "t"}], "]"}]}], "+", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1.`", "\[VeryThinSpace]", "-", 
+         RowBox[{"1.`", " ", 
+          RowBox[{"Cos", "[", 
+           RowBox[{"1.8129440567308772`", " ", 
+            RowBox[{"Log", "[", 
+             RowBox[{"16.`", " ", 
+              SuperscriptBox["2.`", 
+               RowBox[{"0.08333333333333333`", " ", 
+                RowBox[{"Mod", "[", 
+                 RowBox[{"m", ",", "12.`"}], "]"}]}]]}], "]"}]}], "]"}]}]}], 
+        ")"}], " ", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"4208.`", " ", 
+         SuperscriptBox["2.`", 
+          RowBox[{"0.08333333333333333`", " ", 
+           RowBox[{"Mod", "[", 
+            RowBox[{"m", ",", "12.`"}], "]"}]}]], " ", "t"}], "]"}]}]}], 
+     ")"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "0", ",", "5"}], "}"}], ",", 
+   RowBox[{"PlayRange", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "9"}], ",", "9"}], "}"}]}]}], "]"}]], "Output",
+ CellChangeTimes->{3.8521861722622128`*^9, 3.852186210318678*^9, 
+  3.852186241537449*^9, 3.852186613510654*^9},
+ CellLabel->"Out[19]=",ExpressionUUID->"172ee994-d6c8-4307-9271-36f1b2997da6"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{
+   "\"\<~/dev/javascript/harmonizer_js/src/assets/00.wav\>\"", ",", " ", 
+    RowBox[{"snd", "[", "0", "]"}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{
+   "\"\<~/dev/javascript/harmonizer_js/src/assets/01.wav\>\"", ",", " ", 
+    RowBox[{"snd", "[", "1", "]"}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{
+   "\"\<~/dev/javascript/harmonizer_js/src/assets/02.wav\>\"", ",", " ", 
+    RowBox[{"snd", "[", "2", "]"}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{
+   "\"\<~/dev/javascript/harmonizer_js/src/assets/03.wav\>\"", ",", " ", 
+    RowBox[{"snd", "[", "3", "]"}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{
+   "\"\<~/dev/javascript/harmonizer_js/src/assets/04.wav\>\"", ",", " ", 
+    RowBox[{"snd", "[", "4", "]"}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{
+   "\"\<~/dev/javascript/harmonizer_js/src/assets/05.wav\>\"", ",", " ", 
+    RowBox[{"snd", "[", "5", "]"}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{
+   "\"\<~/dev/javascript/harmonizer_js/src/assets/06.wav\>\"", ",", " ", 
+    RowBox[{"snd", "[", "6", "]"}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{
+   "\"\<~/dev/javascript/harmonizer_js/src/assets/07.wav\>\"", ",", " ", 
+    RowBox[{"snd", "[", "7", "]"}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{
+   "\"\<~/dev/javascript/harmonizer_js/src/assets/08.wav\>\"", ",", " ", 
+    RowBox[{"snd", "[", "8", "]"}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{
+   "\"\<~/dev/javascript/harmonizer_js/src/assets/09.wav\>\"", ",", " ", 
+    RowBox[{"snd", "[", "9", "]"}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{
+   "\"\<~/dev/javascript/harmonizer_js/src/assets/10.wav\>\"", ",", " ", 
+    RowBox[{"snd", "[", "10", "]"}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", 
+  RowBox[{
+  "\"\<~/dev/javascript/harmonizer_js/src/assets/11.wav\>\"", ",", " ", 
+   RowBox[{"snd", "[", "11", "]"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.852186468729516*^9, 3.852186497336087*^9}, {
+  3.852186768460122*^9, 3.8521868089366817`*^9}},
+ CellLabel->"In[43]:=",ExpressionUUID->"26888584-6765-4ad1-9294-0a8dc534c713"],
+
+Cell[BoxData["\<\"~/dev/javascript/harmonizer_js/src/assets/11.wav\"\>"], \
+"Output",
+ CellChangeTimes->{3.8521865005634604`*^9, 3.852186809979521*^9},
+ CellLabel->"Out[54]=",ExpressionUUID->"128f7339-403c-4d03-9469-28e5d01a69b2"]
+}, Open  ]]
+}, Open  ]]
+},
+Editable->True,
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+CellInsertionPointCell->None,
+WindowSize->{1680, 997},
+WindowMargins->{{0, Automatic}, {Automatic, 1}},
+WindowElements->{
+ "StatusArea", "MemoryMonitor", "MagnificationPopUp", "VerticalScrollBar", 
+  "MenuBar"},
+WindowTitle->"Shepard Tones - Source",
+DockedCells->{},
+CellContext->Notebook,
+FrontEndVersion->"13.0 \:c758 Mac OS X x86 (64-bit) (December 2, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"7f606596-305f-4c5a-a2ad-90b888dfcfbe"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Envelope Functions"->{
+  Cell[4570, 97, 625, 17, 76, "Input",ExpressionUUID->"c05161a2-529b-46fd-b76a-0216bdb4a85e",
+   CellTags->"Envelope Functions",
+   CellID->2079067636]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Envelope Functions", 29352, 756}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[589, 21, 195, 5, 62, "Section",ExpressionUUID->"c73dc675-6ae9-4bc6-8221-b4a1bca08184"],
+Cell[CellGroupData[{
+Cell[809, 30, 3758, 65, 49, "Section",ExpressionUUID->"9980deeb-d691-41ba-8dea-45fcdddd90ce"],
+Cell[4570, 97, 625, 17, 76, "Input",ExpressionUUID->"c05161a2-529b-46fd-b76a-0216bdb4a85e",
+ CellTags->"Envelope Functions",
+ CellID->2079067636],
+Cell[5198, 116, 729, 20, 45, "Input",ExpressionUUID->"aa64625c-046e-4a7d-bbe2-f5a6a3a2e24e",
+ CellID->1183337915],
+Cell[5930, 138, 1059, 28, 46, "Input",ExpressionUUID->"f820f61b-0011-4c52-bbac-df4925e61af5",
+ CellID->514282538],
+Cell[CellGroupData[{
+Cell[7014, 170, 5032, 120, 281, "Input",ExpressionUUID->"832cdf5f-f8ef-4dd2-b62e-bb29e606189c",
+ CellID->2072420638],
+Cell[12049, 292, 3751, 79, 537, "Output",ExpressionUUID->"4ef76c53-959e-491f-9bec-634b14fd75c6"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15849, 377, 271, 8, 44, "Section",ExpressionUUID->"79d64244-beb0-4910-974e-8025fad46e31"],
+Cell[16123, 387, 375, 5, 70, "Text",ExpressionUUID->"e3bf40db-a442-436a-94d2-590fd91946d5"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[16535, 397, 417, 11, 20, "Text",ExpressionUUID->"be02cfa8-4318-447d-adb4-a34d57fc2e4d",
+ CellGroupingRules->{"SectionGrouping", 25}],
+Cell[16955, 410, 908, 25, 39, "Text",ExpressionUUID->"2a0773ed-c98d-4a6d-ba6f-bd9a0f6d730b"],
+Cell[17866, 437, 512, 15, 20, "Text",ExpressionUUID->"281bd02a-e879-4c5f-a4fe-61be839dabae",
+ CellID->1143965764],
+Cell[18381, 454, 873, 25, 101, "Text",ExpressionUUID->"de075f68-2d90-4b76-a6dd-42a770351012"],
+Cell[19257, 481, 1242, 34, 89, "Text",ExpressionUUID->"27cece19-ae4f-4453-b524-92d8dd0851fa"],
+Cell[CellGroupData[{
+Cell[20524, 519, 838, 21, 44, "Input",ExpressionUUID->"638ea130-e26a-4861-a82e-f4990d9ec535"],
+Cell[21365, 542, 4492, 117, 84, "Output",ExpressionUUID->"172ee994-d6c8-4307-9271-36f1b2997da6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[25894, 664, 2554, 62, 440, "Input",ExpressionUUID->"26888584-6765-4ad1-9294-0a8dc534c713"],
+Cell[28451, 728, 230, 3, 82, "Output",ExpressionUUID->"128f7339-403c-4d03-9469-28e5d01a69b2"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
