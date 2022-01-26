@@ -1,0 +1,69 @@
+body {
+    font: 40px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 40px 10px;
+  }
+  
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .main {
+    /* display:flex; */
+    --s: 100px;  /* size  */
+    --r: .8660;      /* ratio */
+    
+    --h: 0.25; 
+    --v: 0.5; 
+    
+    --hc:calc(clamp(0,var(--h),0.5) * var(--s)) ;
+    --vc:calc(clamp(0,var(--v),0.5) * var(--s) * var(--r)); 
+    
+  
+    --m: 0px;    /* vertical margin */
+    --m-h: calc(var(--m) + (var(--s) - 2*var(--hc))/2); /* horizontal margin */
+    --f: calc(2*var(--r) * var(--s) +  var(--m))
+  }
+  .container {
+    font-size: 0; /* disable white space between inline block 
+    element */
+  }
+  .container-margin {
+    font-size: 0; /* disable white space between inline block element */
+  }
+  .container-margin div:nth-child(1){
+    margin-left: calc(var(--m-h) + var(--s)*0.75 + var(--m));
+  }
+
+  .hex {
+    font-size:20px;
+    text-align: center;
+    width: var(--s);
+    margin: var(--m) var(--m-h);
+    height: calc(var(--s)*var(--r));
+    display: inline-block;
+    vertical-align: baseline;
+  
+
+    background: olive ;
+    clip-path: polygon(var(--hc) 0, calc(100% - var(--hc)) 0,100% var(--vc),100% calc(100% - var(--vc)), calc(100% - var(--hc)) 100%,var(--hc) 100%,0 calc(100% - var(--vc)),0 var(--vc));
+    margin-bottom: calc(var(--m) - var(--vc));
+    position: relative;
+  }
+  
+  .container div div{
+    height: calc(var(--s)*var(--r)/2);
+    position: absolute;
+    bottom: 10px;
+    left:40px;
+  }
+
+  .container-margin div div{
+    height: calc(var(--s)*var(--r)/2);
+    position: absolute;
+    bottom: 10px;
+    left:-60px;
+  }
+
+  
+
