@@ -1,3 +1,15 @@
+# Harmonizer 
+
+I want to regenerate Stephen Malinowski's [Harmonizer](http://www.musanim.com/harmonizer/). 
+
+## Issues
+I think the implementation is ugly. Also vertical text aligning is natural.
+
+
+Below is auto-generated Readme.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
