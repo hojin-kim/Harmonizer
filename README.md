@@ -20,3 +20,8 @@ This issue is tangled with the Hex grid issue; flexbox is not possible since it 
 * Colors!
 * I want to make some infinite grid of hexagons. 
 * I want to serve this service; my tiny EC2 server cannot maintain this app. (I'm not sure.) 
+
+## If you want to download and try it: 
+* You might need node.js. 
+* run `$npx create-my-app harmonizer` with shell. 
+* remove all files in `harmonizer/src` and download the `src` directory in this repository to be your new `harmonizer/src`.
